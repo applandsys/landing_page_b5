@@ -23,3 +23,7 @@ Route::get('/',[FrontController::class,'homepage'])->name('front.homepage');
 Route::get('/detail',[FrontController::class,'detail'])->name('front.detail');
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

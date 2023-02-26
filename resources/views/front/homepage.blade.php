@@ -312,7 +312,7 @@
                             color: #000;
                             font-weight: bold;
                             font-size: 1.3rem;">
-                                SEAT REMAINS 1000
+                                SEAT REMAINS  {{ (1000 - $users->where('user_type','free')->count()) }}
                             </div>
                         </div>
 
@@ -372,7 +372,7 @@
                             color: #000;
                             font-weight: bold;
                             font-size: 1.3rem;">
-                               SEAT REMAINS 30
+                                 SEAT REMAINS  {{ (30 - $users->where('user_type','premium')->count()) }}
                             </div>
                         </div>
 

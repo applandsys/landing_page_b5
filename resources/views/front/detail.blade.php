@@ -87,6 +87,164 @@
         </div>
     </section>
 
+
+
+    <section class="container">
+        <div class="row bg_yellow  my-5">
+            <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
+                        <div class="pb-2">
+                            <div class="card" style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >2 days training session</p>
+                                </div>
+                            </div>
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >2 days training session</p>
+                                </div>
+                            </div>
+
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                </div>
+                            </div>
+
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
+                        <div class="pb-2">
+                            <div class="card" style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >2 days training session</p>
+                                </div>
+                            </div>
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                </div>
+                            </div>
+
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                </div>
+                            </div>
+
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row bg_light bg_wrapper my-5">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no_padding">
+                  <div>  <img src="{{asset('front/images/hero.png')}}" class="img100"></div>
+              </div>
+              <div class="col-lg-6 col-md-6 auto_center" >
+                  <div class="" >
+                      <div class="" >
+                          <h2 class="fw-bold">টেইনারের সাথে সরাসরি ক্লাস</h2>
+                          <p class="big_p">দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS </p>
+                      </div>
+                      <div class="mx-auto mb-4 pb-1 px-1">
+                          <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
+                        </div>
+                  </div>
+              </div>
+        </div>
+      </section>
+
+
+      <section class="container">
+        <div class="row bg_light bg_wrapper my-5">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no_padding">
+                  <div>  <img src="{{asset('front/images/hero.png')}}" class="img100"></div>
+              </div>
+              <div class="col-lg-6 col-md-6 auto_center" >
+                  <div class="" >
+                      <div class="" >
+                          <h2 class="fw-bold">মেইন ভ্যানুতে মক টেস্ট</h2>
+                          <p class="big_p">
+                            দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS
+                          </p>
+                      </div>
+                      <div class="mx-auto mb-4 pb-1 px-1">
+                          <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
+                        </div>
+                  </div>
+              </div>
+        </div>
+      </section>
+
+
+      <section class="container">
+        <div class="row bg_light bg_wrapper my-5">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no_padding">
+                  <div>  <img src="{{asset('front/images/hero.png')}}" class="img100"></div>
+              </div>
+              <div class="col-lg-6 col-md-6 auto_center" >
+                  <div class="" >
+                      <div class="" >
+                          <h2 class="fw-bold">ব্যান্ড ৮ challenge সরাসরি
+                            রেজিস্ট্রেশন</h2>
+                          <p class="big_p">
+                            দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS
+                          </p>
+                      </div>
+                      <div class="mx-auto mb-4 pb-1 px-1">
+                          <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
+                        </div>
+                  </div>
+              </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row  bg_wrapper my-5">
+            <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+                        <div class="mx-auto mb-4 pb-2 px-2">
+                            <button class="full_button sweet_color_bg text-right fw-bold">সিট বুকিং করার লিংক</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+                        <div class="mx-auto text-center" style="    font-size: 1.4rem;">
+                            না, আমার পিমিয়াম প্ল্যান দরকার নেই
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <script>

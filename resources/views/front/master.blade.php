@@ -12,6 +12,16 @@
 <link href="{{asset('front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <style>
+
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: #f0f1ab;
+        }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -166,6 +176,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     }
 
 
+    .bg_yellow{
+        background: #E6AF2E;
+    }
+
+
 
     @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
@@ -255,7 +270,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
                 </a>
             </div>
             <div>
-                <button class="big_button sweet_color_bg text-right fw-bold">Free Registration</button>
+                <button class="big_button sweet_color_bg text-right fw-bold"> <a href="{{url('register')}}">Free Registration </a></button>
             </div>
         </div>
       {{-- <a href="#" class="navbar-brand d-flex align-items-center">

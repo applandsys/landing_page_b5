@@ -331,7 +331,7 @@
                     </div>
 
                     <div style="display: flex; justify-content: center; padding-bottom: 20px">
-                        <button class="big_button bg_blue_gradient "> কনফার্ম করুন </button>
+                        <button class="big_button bg_blue_gradient "> <a href="{{route('front.detail')}}"> কনফার্ম করুন </a></button>
                     </div>
 
                 </div>
@@ -391,7 +391,7 @@
                     </div>
 
                     <div style="display: flex; justify-content: center; padding-bottom: 20px">
-                        <button class="big_button bg_red_gradient "> এনরোল করুন</button>
+                        <button class="big_button bg_red_gradient "> <a href="{{route('front.detail')}}"> এনরোল করুন </a></button>
                     </div>
 
                 </div>

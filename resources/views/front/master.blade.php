@@ -291,12 +291,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
             <div>
                 <a href="{{route('front.homepage')}}">
                 <img src="{{asset('front/images/home-button.png')}}"
-                style="width: 66px;padding: 2px;
+                style="width: 51px;padding: 2px;
                 margin-top: 7px;">
                 </a>
             </div>
             <div>
-                <button class="big_button sweet_color_bg text-right fw-bold"> <a href="{{url('register')}}">Free Registration </a></button>
+                <button class="big_button sweet_color_bg text-right fw-bold" style="font-size: 1.5rem"  > <a href="{{url('register')}}">Free Registration </a></button>
             </div>
         </div>
       {{-- <a href="#" class="navbar-brand d-flex align-items-center">

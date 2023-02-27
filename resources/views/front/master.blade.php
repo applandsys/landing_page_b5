@@ -11,7 +11,28 @@
     <!-- Bootstrap core CSS -->
 <link href="{{asset('front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
 
+
+
     <style>
+    @font-face {
+    font-family: 'LiAdor';
+    src:  url("{{ asset('assets/font/LiAdorNoirritRegular.ttf') }}") format('truetype') ;
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+/* body {
+    font-family: 'AponaLohit', Arial, sans-serif !important;
+} */
+
+body {
+    font-family: 'LiAdor', Arial, sans-serif !important;
+}
+
+            p{
+                font-size: 1.2rem;
+            }
 
         a{
             text-decoration: none;
@@ -28,6 +49,10 @@
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none;
+      }
+
+      .subhead{
+        font-size: 1.7rem;
       }
 
       @media (min-width: 768px) {
@@ -73,6 +98,7 @@
 
      .bg_wrapper{
         border-radius: 24px;
+        align-items: center;
      }
 
      .no_padding{
@@ -289,9 +315,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 <footer class="text-muted py-5">
   <div class="container">
     <p class="float-end mb-1">
-      <a href="#">Back to top</a>
+      <a href="#"><img src="{{asset('front/images/backto_top.png')}}" style="width: 90px;"></a>
     </p>
-    <p class="mb-1">1000 People IELTS Free IELTS Training is &copy; Its a British American Resource Center CSR Project</p>
+    {{-- <p class="mb-1">1000 People IELTS Free IELTS Training is &copy; Its a British American Resource Center CSR Project</p> --}}
   </div>
 </footer>
 <script src="{{asset('front/assets/dist/js/bootstrap.bundle.min.js')}}"></script>

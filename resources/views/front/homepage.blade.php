@@ -10,8 +10,11 @@
             <div class="col-lg-5 col-md-5 auto_center" >
                 <div class="" >
                     <div class="" >
-                        <h2 class="fw-bold">হাজার মানুষের  IELTS প্রস্তুতি</h2>
-                        <h3>দেশজুরে ১০০০ মানুষ বিনামূল্যে IELTS এর জন্য প্রস্তুত হবে</h3>
+                        <h2 class="fw-bold">
+                            হাজার মানুষের  IELTS প্রস্তুতি
+                        </h2>
+                        <h3>দেশজুড়ে ১,০০০ মানুষ বিনামূল্যে IELTS এর জন্য প্রস্তুত হবে
+                        </h3>
                     </div>
                     <div class="mx-auto mb-4 pb-1 px-1">
                         <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
@@ -37,20 +40,24 @@
 
     <section class="container">
         <div class="row bg_light bg_wrapper my-5">
-            <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12 my-3">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="text-center mt-2"><h3 class="fw-bold">IELTS পরীক্ষা প্রস্তুতির পূর্ণাঙ্গ প্রোগ্রাম</h3></div>
-                        <div class="text-center"><p class="big_p">দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</p></div>
+                        <div class="text-center"> <h3>দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</h3></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
-                        <div class="pb-2">
-                            <div class="card" style="border-radius: 30px;">
+                        <div class="pb-2" style="
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 100%">
+                            <div class="card" style="    border-radius: 30px;">
                                 <div class="card-body">
-                                  <h5 class="card-title">Great Coach</h5>
-                                  <p class="card-text big_p" >When you join the challenge for free today you could be chosen to get coached by Tony, Dean & team to help you launch your digital product. They have never done this before!</p>
+                                  {{-- <h5 class="card-title">Great Coach</h5> --}}
+                                  <p class="card-text big_p px-5 py-4"  >সবচেয়ে দ্রুততম সময়ে IELTS এর জন্য নিজেকে প্রস্তুত করার সময় এখনি। আপনার জন্য থাকছে ২০+ ঘন্টার ক্লাস যেখানে আপনি Reading, Writing, Listening & Speaking মডিউলের সম্পুর্ন ধারনা পাবেন এবং প্রয়োজনীয় সব স্ট্র্যাটেজি শিখতে পারবেন। সাথে থাকছে এক্সপার্ট হেল্প এবং গুরুত্বপূর্ণ লেকচার ম্যাটেরিয়াল।</p>
                                 </div>
                             </div>
                         </div>
@@ -83,24 +90,24 @@
                         <div class="pb-2">
                             <div class="card" style="border-radius: 30px; margin-bottom: 3px">
                                 <div class="card-body">
-                                  <p class="card-text big_p text-center" >2 days training session</p>
+                                  <p class="card-text big_p text-center" >3 days training session</p>
                                 </div>
                             </div>
                             <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
                                 <div class="card-body">
-                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
-                                </div>
-                            </div>
-
-                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
-                                <div class="card-body">
-                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                  <p class="card-text big_p text-center" >1 month equivalent course </p>
                                 </div>
                             </div>
 
                             <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
                                 <div class="card-body">
-                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                  <p class="card-text big_p text-center" >Course Recording*</p>
+                                </div>
+                            </div>
+
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >Mock Test*</p>
                                 </div>
                             </div>
                         </div>
@@ -109,24 +116,24 @@
                         <div class="pb-2">
                             <div class="card" style="border-radius: 30px; margin-bottom: 3px">
                                 <div class="card-body">
-                                  <p class="card-text big_p text-center" >2 days training session</p>
+                                  <p class="card-text big_p text-center" >Band 8 gift</p>
                                 </div>
                             </div>
                             <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
                                 <div class="card-body">
-                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
-                                </div>
-                            </div>
-
-                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
-                                <div class="card-body">
-                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                  <p class="card-text big_p text-center" >Class Material</p>
                                 </div>
                             </div>
 
                             <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
                                 <div class="card-body">
-                                  <p class="card-text big_p text-center" >16-hour-long intensive session</p>
+                                  <p class="card-text big_p text-center" >Recovery session* </p>
+                                </div>
+                            </div>
+
+                            <div class="card"  style="border-radius: 30px; margin-bottom: 3px">
+                                <div class="card-body">
+                                  <p class="card-text big_p text-center" >Placement Test</p>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +154,7 @@
 
 
     <section class="container">
-        <div class="row  bg_wrapper my-5">
+        <div class="row  bg_wrapper my-5 align-middle">
             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 bg_light">
                 Waiting for content ...
             </div>
@@ -155,8 +162,8 @@
             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
                 <div>
                     <h3 class="fw-bold text-center">কেন ১,০০০ মানুষ এক সাথে</h3>
-                    <p class="card-text big_p " >
-                        দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS
+                    <p class="card-text big_p px-5" >
+                        পূরণ হোক দেশের প্রতিটি প্রান্তের মানুষের উচ্চশিক্ষার স্বপ্ন। তাই সবাইকে একসাথে এগিয়ে নেয়ার জন্য আমরা শুরু করেছি হাজার মানুষের IELTS প্রস্তুতি। আমাদের সাথে আপনার স্বপ্নপূরন করুন।
                     </p>
                 </div>
             </div>
@@ -165,16 +172,13 @@
 
 
     <section class="container">
-        <div class="row  bg_wrapper bg_light my-5">
-            <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 ">
+        <div class="row  bg_wrapper bg_light my-5 align-middle">
+            <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 align-middle">
                <div class="mt-3 p-3">
-                  <h3 class="fw-bold text-center">FOR THOSE WHO ACCEPT THE CHALLENGE - YOU CAN WIN SOME COOL STUFF.</h3>
-                  <p class="card-text big_p ">FOR THOSE WHO REGISTER, ATTEND AND PLAY FULL OUT, You’ll be eligible to win daily prizes including event tickets.</p>
-                  <p class="card-text big_p ">2nd Paragraph.</p>
-                  <p class="card-text big_p ">3rd Paragraph.</p>
-                  <p class="card-text big_p ">4th Paragraph.</p>
-                  <div class="mx-auto mb-4 pb-1 px-1">
-                    <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
+                  <h3 class="fw-bold text-center mb-4" style="">যাদের একটু বেশী দরকার</h3>
+                    <p class="px-5">যারা নিজেদের প্রমাণ করতে চান, তাদের জন্য অপেক্ষা করছে বিশেষ কিছু। নিজেকে প্রমাণ করুন মক টেস্টে ব্যান্ড ৮ অর্জন করে এবং জিতে নিন আকর্ষণীয় পুরস্কার।</p>
+                  <div class="mx-auto mb-4 pb-1 px-1 mt-4">
+                    <button class="full_button sweet_color_bg text-right fw-bold"> আপনিও রেজিস্ট্রেশন করুন </button>
                 </div>
                </div>
             </div>
@@ -205,14 +209,12 @@
             </div>
             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 ">
                 <div class="mt-3 p-3">
-                   <h3 class="fw-bold text-center">আপনার জন্য কেন? <br/>
-                    <span class="gray_color"> Shikho'র সাথেই শিখছে সবাই, জিতছে সবাই </span></h3>
-                   <p class="card-text big_p text-right">FOR THOSE WHO REGISTER, ATTEND AND PLAY FULL OUT, You’ll be eligible to win daily prizes including event tickets..</p>
-                   <p class="card-text big_p ">2nd Paragraph.</p>
-                   <p class="card-text big_p ">3rd Paragraph.</p>
-                   <p class="card-text big_p ">4th Paragraph.</p>
-                   <div class="mx-auto mb-4 pb-1 px-1">
-                     <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
+                   <h3 class="fw-bold text-center">আপনার জন্য কেন? </h3> <br/>
+                    <p class="px-5">
+                        গোলক ধাঁধায় না পরে, নিজেকে প্রস্তুত করুন সবচেয়ে কম সময়ে। আপনি যদি সঠিক গাইডলাইন খুঁজে থাকেন, জয়েন করুন আমাদের সাথে আর কাটিয়ে উঠুন সব কনফিউশন।
+                    </p>
+                   <div class="mx-auto mb-4 pb-1 px-1 mt-5">
+                     <button class="full_button sweet_color_bg text-right fw-bold">IELTS গাইডলাইন নিন</button>
                    </div>
                 </div>
              </div>
@@ -248,16 +250,13 @@
     <section class="container">
         <div class="row  bg_wrapper my-5">
             <div class="col-lg-6 col-md-6   col-sm-12 col-xs-12 ">
-                <div class="bg_wrapper bg_light">
-                    <h2 class="text-center"> Trainer Identity </h2>
-                    <div>
-                        দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি
+                <div class="bg_wrapper bg_light bg_wrapper bg_light px-5 py-5">
+                    <h2 class="text-center">হ্যালো,</h2>
+                    <div class="mt-5 mb-5" style="line-height: 2rem">
+                       <p> আমি মারুফ ফিরোজ। ১৮ বছর ধরে মানুষকে শিখিয়ে আসছি কিভাবে IELTS এর জন্য নিজেকে প্রস্তুত করতে হয়। বাংলাদেশের সবচেয়ে বেশী IELTS ক্যান্ডিডেটদের সবচেয়ে সফলভাবে প্রস্তুতির অভিজ্ঞতা নিয়ে চলে এসেছি “হাজার মানুষের IELTS প্রস্তুতি” প্রোগ্রামে ট্রেইনার হয়ে। আপনাদের সবাইকে নিয়ে এগিয়ে যেতে চাই। </p>
                     </div>
-                    <div style="height: 340px;">
-
-                    </div>
-                    <div class="mx-auto mb-4 pb-1 px-1" style="width: 80%">
-                        <button class="full_button sweet_color_bg text-right fw-bold">জয়েন করুন আমাদের সাথে</button>
+                    <div class="mx-auto mb-4 pb-2 px-3 mt-2">
+                        <button class="full_button sweet_color_bg text-right fw-bold">এগিয়ে চলুন আমার সাথে</button>
                     </div>
                 </div>
 
@@ -414,17 +413,12 @@
 
     <section class="container">
         <div class="row bg_light bg_wrapper my-5">
-            <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+            <div class="col-lg-8 col-md-8  col-sm-12 col-xs-12 mx-auto">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="text-center mt-2"><h3 class="fw-bold">IELTS পরীক্ষা প্রস্তুতির পূর্ণাঙ্গ প্রোগ্রাম</h3></div>
-                        <div class="text-center"><p class="big_p">দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</p></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
-                        <div style="height: 200px;">
-
+                        <div class="mb-5">
+                            <div class="text-center mt-5  mb-5"><h3 class="fw-bold">কেন ব্রিটিশ আমেরিকান রিসোের সেন্টার সবচেয়ে সেরা?</h3></div>
+                            <div class="text-center"><p class="big_p">গত ১৩ বছরে সবার আস্থা অর্জনের শীর্ষে আছে ব্রিটিশ আমেরিকান রিসোর্স সেন্টার। কাস্টমাইজ লারনিং সলিউশন (ঠিক যেমনটা যার প্রয়োজন, যতটুকু দরকার), গাইডেড লার্নিং সিস্টেম সহ IELTS সেবা এবং প্রস্তুতির মান বৃদ্ধিতে নিয়ে এসেছে নতুন সম্ভাবনা। </p></div>
                         </div>
                     </div>
                 </div>

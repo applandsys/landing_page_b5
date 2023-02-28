@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 no_padding ">
-                <div>  <img src="{{asset('front/images/logo_hero.jpg')}}" class="img100" style="    border-radius: 24px 0px 0px 24px;"></div>
+                <div>  <img src="{{asset('front/images/82.jpg')}}" class="img100" style="    border-radius: 24px 0px 0px 24px;"></div>
             </div>
       </div>
     </section>

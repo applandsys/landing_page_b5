@@ -93,7 +93,7 @@ body {
 
      .bg_light{
         background: #EEF4ED;
-        border: 1px solid #ddd;
+
      }
 
      .radius24{
@@ -338,7 +338,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         width: 100%;">
             <div>
                 <a href="{{route('front.homepage')}}">
-                <img src="{{asset('front/images/home-button.png')}}"
+                <img src="{{asset('front/images/82.jpg')}}"
                 style="width: 51px;padding: 2px;
                 margin-top: 7px;">
                 </a>

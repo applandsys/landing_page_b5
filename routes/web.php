@@ -14,16 +14,22 @@ use App\Http\Controllers\FrontController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
+// Route::get('/signin', function () {
+//     echo "dfdf";
 // });
 
 
 Route::get('/',[FrontController::class,'homepage'])->name('front.homepage');
 Route::get('/detail',[FrontController::class,'detail'])->name('front.detail');
+Route::match(['get','post'],'/signup/{slug}', [FrontController::class,'signup'])->name('front.signup');
 
+Route::match(['get','post'],'/signin', [FrontController::class,'signin'])->name('front.signin');
+Route::match(['get','post'],'/payment', [FrontController::class,'payment'])->name('front.payment');
 
 
 Auth::routes();
+
+
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

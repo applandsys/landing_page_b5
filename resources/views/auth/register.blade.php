@@ -8,8 +8,9 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                     <div class="mx-auto text-center">
+                        <h1 class="fw-bold"> হাজার মানুষের  IELTS প্রস্তুতি </h1>
                        <h3>  নিচে আপনার তথ্য দিয়ে রেজিস্ট্রেশন করুন </h3>
-                       <h1> হাজার মানুষের  IELTS প্রস্তুতি </h1>
+
                     </div>
                 </div>
             </div>
@@ -93,6 +94,9 @@
                     <div class="row mb-0">
                         <div class="col-md-12 mx-auto">
                             <div class="mt-5">
+
+
+
                                 <button type="submit" class="full_button sweet_color_bg text-right fw-bold">
                                     {{ __('ক্লিক করে জয়েন করুন হাজার মানুষের IELTS প্রস্তুতি প্রোগ্রামে') }}
                                 </button>

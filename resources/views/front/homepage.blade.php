@@ -3,26 +3,26 @@
 @section('content')
 <main>
     <section class="container">
-      <div class="row bg_light bg_wrapper my-5 reverese_row">
-
-            <div class="col-lg-5 col-md-5 auto_center " >
-                <div class="" >
-                    <div class="" >
-                        <h2 class="fw-bold fs-1">
-                            হাজার মানুষের  IELTS প্রস্তুতি
-                        </h2>
-                        <h3>দেশজুড়ে ১,০০০ মানুষ বিনামূল্যে IELTS এর জন্য প্রস্তুত হবে
-                        </h3>
-                    </div>
-                    <div class="mx-auto mb-4 pb-1 px-1">
-                        <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
-                      </div>
-                </div>
-            </div>
-
+      <div class="row bg_light bg_wrapper my-5 ">
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 no_padding ">
-                <div>  <img src="{{asset('front/images/82.jpg')}}" class="img100" style="    border-radius: 24px 0px 0px 24px;"></div>
+                <div>  <img src="{{asset('front/images/82.png')}}" class="img100" style="    border-radius: 24px 0px 0px 24px;"></div>
             </div>
+            <div class="col-lg-5 col-md-5 auto_center " >
+
+                <div class="" >
+                    <h2 class="fw-bold fs-1">
+                        হাজার মানুষের  IELTS প্রস্তুতি
+                    </h2>
+                    <h3>দেশজুড়ে ১,০০০ মানুষ বিনামূল্যে IELTS এর জন্য প্রস্তুত হবে
+                    </h3>
+                </div>
+
+                <div class="mx-auto mb-4 pb-1 px-1">
+                    <button class="full_button sweet_color_bg text-right fw-bold" ><a href="#price_chart">  ফ্রি রেজিস্ট্রেশন করুন </a></button>
+                </div>
+
+            </div>
+
       </div>
     </section>
 
@@ -31,8 +31,8 @@
         <div class="row bg_light bg_wrapper my-5">
             <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                 <div class="mt-4" style="">
-                    <ul style=" " class="inline_list fw-bold">
-                        <li style=""> <img src="{{asset('front/images/red-bullet.png')}}" style="width:25px; margin-top: -2px; margin-right: 10px;"> ১৬+ ঘন্টা ক্লাস</li>
+                    <ul style="    margin-bottom: 24px ; margin-left: 20px " class="inline_list fw-bold">
+                        <li style=""> <img src="{{asset('front/images/red-bullet.png')}}" style="width:25px; margin-top: -2px; margin-right: 10px;"> ২০+ ঘন্টা ক্লাস</li>
                         <li style=""> <img src="{{asset('front/images/red-bullet.png')}}" style="width:25px; margin-top: -2px; margin-right: 10px;">ক্লাস ম্যাটেরিয়াল</li>
                         <li style=""> <img src="{{asset('front/images/red-bullet.png')}}" style="width:25px; margin-top: -2px; margin-right: 10px;">মক টেস্ট</li>
                         <li style=""> <img src="{{asset('front/images/red-bullet.png')}}" style="width:25px; margin-top: -2px; margin-right: 10px;">ব্যান্ড ৮ গিফট*</li>
@@ -47,7 +47,7 @@
             <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12 my-3">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="text-center mt-2 pb-2"><h3 class="fw-bold">IELTS পরীক্ষা প্রস্তুতির পূর্ণাঙ্গ প্রোগ্রাম</h3></div>
+                        <div class="text-center mt-2 pb-2"><h2 class="fw-bold">IELTS পরীক্ষা প্রস্তুতির পূর্ণাঙ্গ প্রোগ্রাম</h2></div>
                         <div class="text-center pb-3"> <h3>দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</h3></div>
                     </div>
                 </div>
@@ -90,6 +90,8 @@
                         <div class="text-center"><p class="big_p">দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</p></div>
                     </div>
                 </div>
+
+
                 <div class="row">
                     <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
                         <div class="pb-2">
@@ -148,7 +150,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                         <div class="mx-auto mb-4 pb-2 px-2">
-                            <button class="full_button sweet_color_bg text-right fw-bold">ফ্রি রেজিস্ট্রেশন করুন</button>
+                            <button class="full_button sweet_color_bg text-right fw-bold"> <a href="#price_chart">  ফ্রি রেজিস্ট্রেশন করুন </a> </button>
                         </div>
                     </div>
                 </div>
@@ -161,14 +163,14 @@
     <section class="container">
         <div class="row  bg_wrapper my-5 align-middle">
             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 ">
-                <img src="{{asset('front/images/hero.jpg')}}"  class="img100" style="border-radius: 24px">
+                <img src="{{asset('front/images/hajar-manush.png')}}"  class="img100" style="border-radius: 24px">
             </div>
 
             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
                 <div>
 
                     <div class="mb-3 mt-5">
-                        <h3 class="fw-bold text-center">কেন ১,০০০ মানুষ এক সাথে</h3>
+                        <h2 class="fw-bold text-center">কেন ১,০০০ মানুষ এক সাথে</h2>
                     </div>
 
                     <div>
@@ -193,27 +195,25 @@
                         <div style="display: flex;
                         align-items: center;
                         justify-content: center;">
-                            <img src="{{asset('front/images/hero.jpg')}}"  class="img100 radius24">
+                            <img src="{{asset('front/images/need_more.jpg')}}"  class="img100 radius24">
                         </div>
                      </div>
                 </div>
 
-
                 <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 align_center">
                    <div class="">
                         <div class="mb-4 mt-4">
-                            <h3 class="fw-bold text-center">যাদের একটু বেশী দরকার</h3>
+                            <h2 class="fw-bold text-center">যাদের একটু বেশী দরকার</h2>
                         </div>
                         <div class="mb-5">
                             <p class="card-text big_p text-center px-md-5" >
                                 যারা নিজেদের প্রমাণ করতে চান, তাদের জন্য অপেক্ষা করছে বিশেষ কিছু। নিজেকে প্রমাণ করুন মক টেস্টে ব্যান্ড ৮ অর্জন করে এবং জিতে নিন আকর্ষণীয় পুরস্কার।
                             </p>
                         </div>
-
                    </div>
                    <div class="row">
                     <div class="col-md-6 col-xs-12 mx-auto">
-                        <button class="full_button sweet_color_bg text-right fw-bold"> আপনিও রেজিস্ট্রেশন করুন </button>
+                        <button class="full_button sweet_color_bg text-right fw-bold"> <a href="#price_chart">  আপনিও রেজিস্ট্রেশন করুন </a></button>
                     </div>
                 </div>
                 </div>
@@ -233,16 +233,15 @@
                         <div style="display: flex;
                         align-items: center;
                         justify-content: center;">
-                            <img src="{{asset('front/images/hero.jpg')}}"  class="img100 radius24">
+                            <img src="{{asset('front/images/think.jpg')}}"  class="img100 radius24">
                         </div>
                      </div>
                 </div>
 
-
                 <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 align_center">
                    <div class="">
                         <div class="mb-4 mt-4">
-                            <h3 class="fw-bold text-center">আপনার জন্য কেন?</h3>
+                            <h2 class="fw-bold text-center">আপনার জন্য কেন?</h2>
                         </div>
                         <div class="mb-5">
                             <p class="card-text big_p text-center px-md-5" >
@@ -253,7 +252,7 @@
                    </div>
                    <div class="row">
                     <div class="col-md-6 col-xs-12 mx-auto">
-                        <button class="full_button sweet_color_bg text-right fw-bold">IELTS গাইডলাইন নিন</button>
+                        <button class="full_button sweet_color_bg text-right fw-bold"> <a href="#price_chart">  IELTS গাইডলাইন নিন </a></button>
                     </div>
                 </div>
                 </div>
@@ -263,13 +262,13 @@
 
     </section>
 
-
+<!---- HIDE for Temporary ---
     <section class="container">
         <div class="row bg_light bg_wrapper my-5">
             <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="text-center mt-2"><h3 class="fw-bold">এই প্রোগ্রামে যা যা থাকছে</h3></div>
+                        <div class="text-center mt-2"><h2 class="fw-bold">এই প্রোগ্রামে যা শিখতে পারবেন</h2></div>
                         <div class="text-center"><p class="big_p">দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</p></div>
                     </div>
                 </div>
@@ -283,6 +282,8 @@
             </div>
         </div>
     </section>
+
+    --->
 
 
 
@@ -298,15 +299,15 @@
             </div>
 
             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12 ">
-                <div class="bg_wrapper bg_light bg_wrapper bg_light px-5 py-5">
+                <div class="bg_wrapper bg_light bg_wrapper bg_light px-md-5 px-3 py-5">
                    <div>
-                        <h2 class="text-center">হ্যালো,</h2>
+                        <h2 class="text-center fw-bold">হ্যালো,</h2>
                     </div>
                     <div class="mt-4 mb-5" style="">
                        <p class="big_p text-center " > আমি মারুফ ফিরোজ। গত ১৮ বছর ধরে মানুষকে শিখিয়ে আসছি কিভাবে IELTS এর জন্য নিজেকে প্রস্তুত করতে হয়। বাংলাদেশের সবচেয়ে বেশী IELTS ক্যান্ডিডেটদের সবচেয়ে সফলভাবে প্রস্তুতির অভিজ্ঞতা নিয়ে চলে এসেছি “হাজার মানুষের IELTS প্রস্তুতি” প্রোগ্রামে ট্রেইনার হয়ে। আপনাদের সবাইকে নিয়ে এগিয়ে যেতে চাই। </p>
                     </div>
                     <div class="mx-auto mb-4 pb-2 px-3 mt-2">
-                        <button class="full_button sweet_color_bg text-right fw-bold">এগিয়ে চলুন আমার সাথে</button>
+                        <button class="full_button sweet_color_bg text-right fw-bold"> <a href="#price_chart">  এগিয়ে চলুন আমার সাথে </a></button>
                     </div>
                 </div>
             </div>
@@ -315,11 +316,11 @@
 
 
     <section class="container">
-        <div class="row  bg_wrapper my-5">
+        <div class="row  bg_wrapper">
             <div class="col-lg-2 col-md-2 ">
             </div>
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 my-2">
-                <div class="price_table_wrapper bg_ligth  my-5">
+                <div class="price_table_wrapper bg_ligth" id="price_chart">
                     <div class="price_title bg_yellow_gradient text-center p-3 ">
                         <span class="fw-bold" style="color: #000;">BASIC</span>
                     </div>
@@ -327,7 +328,7 @@
                         <div style="display: flex; justify-content: space-around">
                             <div class="p-2">
                                 <div>ORIGINAL PRICE</div>
-                                <div style="font-size: 2rem;" class="fw-bold"> 7,000 TK</div>
+                                <div style="font-size: 2rem;" class="gray"> 7,000 TK</div>
                             </div>
                             <div>
                                 <div>
@@ -337,7 +338,7 @@
                             </div>
                         </div>
 
-                        <div style="display: flex; justify-content: center;">
+                        <div style="display: flex; justify-content: center;" class="my-4">
                             <div class="" style="background: red;
                             padding: 8px;
                             border-radius: 10px 0px 0px 10px;
@@ -357,7 +358,7 @@
                         </div>
 
                         <div>
-                            <ul>
+                            <ul class="flist">
                                 <li> <img src="{{asset('front/images/checked.png')}}" > 2 days training session online</li>
                                 <li> <img src="{{asset('front/images/checked.png')}}" >  Equivalent to a one-month crash course</li>
                                 <li><img src="{{asset('front/images/checked.png')}}" > 16-hour-long intensive session</li>
@@ -370,8 +371,8 @@
 
                     </div>
 
-                    <div style="display: flex; justify-content: center; padding-bottom: 20px">
-                        <button class="big_button bg_blue_gradient "> <a href="{{route('front.detail')}}"> কনফার্ম করুন </a></button>
+                    <div style="display: flex; justify-content: center; padding-bottom: 23px; padding-top: 10px">
+                        <button class="big_button bg_blue_gradient "  > <a href="{{route('front.signup','confirm')}}"> কনফার্ম করুন </a></button>
                     </div>
 
                 </div>
@@ -386,7 +387,7 @@
                         <div style="display: flex; justify-content: space-around">
                             <div class="p-2">
                                 <div>ORIGINAL PRICE</div>
-                                <div style="font-size: 2rem;" class="fw-bold"> 10,000 TK</div>
+                                <div style="font-size: 2rem;" class="gray"> 10,000 TK</div>
                             </div>
                             <div>
                                 <div>
@@ -396,7 +397,7 @@
                             </div>
                         </div>
 
-                        <div style="display: flex; justify-content: center;">
+                        <div style="display: flex; justify-content: center;" class="my-4">
                             <div class="" style="background: red;
                             padding: 8px;
                             border-radius: 10px 0px 0px 10px;
@@ -429,12 +430,10 @@
 
                     </div>
 
-                    <div style="display: flex; justify-content: center; padding-bottom: 20px">
-                        <button class="big_button bg_red_gradient "> <a href="{{route('front.detail')}}"> এনরোল করুন </a></button>
+                    <div style="display: flex; justify-content: center; padding-bottom: 23px ;padding-top: 10px" id="price_chart">
+                        <button class="big_button bg_red_gradient "> <a href="{{route('front.signup','enroll')}}"> এনরোল করুন </a></button>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -466,6 +465,8 @@
         </div>
     </section>
 
+
+<!-------------------------HIDE for Temporary --------
 
 
     <section class="container">
@@ -553,6 +554,8 @@
             </div>
         </div>
     </section>
+
+    --->
 
   </main>
 

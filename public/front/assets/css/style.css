@@ -1,0 +1,299 @@
+p{
+    font-size: 1.2rem;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+}
+
+a:hover{
+text-decoration: none;
+color: #f0f1ab;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+.subhead{
+font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.bg-orange {
+/* background-color: #E6AF2E!important; */
+background-color: #f9ca5d!important;
+}
+
+.no_padding{
+padding-top: 0rem;
+padding-bottom: 0rem;
+}
+
+.big_button{
+border: transparent;
+padding: 10px;
+color: #fff;
+font-size: 1.2rem;
+}
+
+.full_button{
+border: transparent;
+padding: 10px;
+color: #fff;
+font-size: 1.2rem;
+width: 100%;
+
+}
+
+.sweet_color_bg{
+background-color: #EF3341;
+}
+
+.bg_light{
+background: #EEF4ED;
+
+}
+
+.radius24{
+border-radius: 24px;
+}
+
+.bg_wrapper{
+border-radius: 24px;
+align-items: center;
+}
+
+.align_center{
+align-items: center;
+}
+
+.no_padding{
+padding: 0px;
+}
+
+img.img100{
+width: 100%;
+}
+
+.auto_center{
+margin: auto;
+text-align: center;
+}
+
+h2{
+font-size: 2.5rem;
+}
+
+.space_aroaund{
+justify-content: space-around;
+}
+.font_medium{
+font-size: 1.5rem;
+}
+
+.big_p{
+font-size: 1.4rem;
+}
+
+section{
+display: block;
+margin-left: 30px;
+margin-right: 3px;
+}
+
+.gray_color{
+color: #938F8F;
+
+}
+
+.price_table_wrapper{
+background: #EEF4ED;;
+/* font-size: 2rem; */
+/* color: #fff; */
+border-radius: 19px 19px 0px 0px;
+
+}
+
+.price_title{
+font-size: 2rem;
+color: #fff;
+border-radius: 19px 19px 0px 0px;
+}
+
+.bg_blue_gradient{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.bg_red_gradient{
+background: linear-gradient(45deg, rgb(87, 0, 230) 0%, rgb(211, 6, 244) 100%)
+}
+
+
+.bg_yellow_gradient{
+background: linear-gradient(rgb(253, 253, 94) -9.52%, rgb(247, 200, 46) 100%);
+}
+
+
+
+.price_content{
+
+}
+
+.inline_list ul li   {
+   text-align: center
+}
+
+ul{
+margin: 0;
+padding: 0;
+}
+ul li   {
+    line-height: 2;
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+
+@media (min-width: 1140px) {
+ul li   { list-style-type: none;
+    line-height: 2;
+    font-size: 1.5rem;
+
+}
+}
+
+.gray{
+color: #7e7979
+}
+
+
+@media (min-width: 1140px) {
+.dynamic_title {
+    font-size: 4rem;
+    font-weight: bold
+}
+}
+
+
+
+@media (max-width: 576px) {
+.dynamic_title {
+    font-size: 2rem;
+    font-weight: bold
+}
+}
+
+
+
+
+
+
+.big_button{
+border: none;
+/* border-radius: 8px; */
+padding: 15px;
+font-size: 2.1em;
+color: #fff;
+font-weight: bold;
+}
+
+
+
+
+.bg_blue_gradient{
+background: rgb(53,139,228);
+background: linear-gradient(90deg, rgba(53,139,228,1) 22%, rgba(9,56,121,1) 91%);
+}
+
+.bg_red_gradient{
+
+}
+
+
+.bg_yellow{
+background: #E6AF2E;
+}
+
+.flist{
+margin-left: 1rem;
+}
+
+
+
+@media (max-width: 767px) {
+.carousel-inner .carousel-item > div {
+display: none;
+}
+.carousel-inner .carousel-item > div:first-child {
+display: block;
+}
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+.carousel-inner .carousel-item-end.active,
+.carousel-inner .carousel-item-next {
+transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-start.active,
+.carousel-inner .carousel-item-prev {
+transform: translateX(-25%);
+}
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+transform: translateX(0);
+}
+
+
+.carousel-control-next-icon {
+background-image: url("{{asset('front/images/right_arrow.png')}}");
+}
+
+.carousel-control-prev-icon {
+background-image: url("{{asset('front/images/left_arrow.png')}}");
+}
+
+
+
+
+@media (min-width: 576px) {
+.reverese_row{
+display: flex;
+flex-direction: row-reverse;
+}
+
+}
+
+@media (min-width: 768px) {
+.reverese_row{
+display: flex;
+flex-direction: row-reverse;
+}
+}
+
+@media (min-width: 1140px) {
+.inline_list{
+display: flex;
+justify-content: space-around;
+}
+}

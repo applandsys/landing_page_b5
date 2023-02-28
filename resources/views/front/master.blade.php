@@ -93,11 +93,19 @@ body {
 
      .bg_light{
         background: #EEF4ED;
-    border: 1px solid #ddd;
+        border: 1px solid #ddd;
+     }
+
+     .radius24{
+        border-radius: 24px;
      }
 
      .bg_wrapper{
         border-radius: 24px;
+        align-items: center;
+     }
+
+     .align_center{
         align-items: center;
      }
 
@@ -174,10 +182,22 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
      }
 
-     ul li   { list-style-type: none;
-    line-height: 2;
-    font-size: 1.5rem;
-}
+     .inline_list ul li   {
+               text-align: center
+            }
+     ul li   {
+                line-height: 2;
+                font-size: 1.5rem;
+                list-style-type: none;
+            }
+
+     @media (min-width: 1140px) {
+        ul li   { list-style-type: none;
+                line-height: 2;
+                font-size: 1.5rem;
+
+            }
+     }
 
 
     .big_button{
@@ -237,19 +257,47 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     }
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
-}
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+    }
 
 
-.carousel-control-next-icon {
-    background-image: url("{{asset('front/images/right_arrow.png')}}");
-}
+    .carousel-control-next-icon {
+        background-image: url("{{asset('front/images/right_arrow.png')}}");
+    }
 
-.carousel-control-prev-icon {
-    background-image: url("{{asset('front/images/left_arrow.png')}}");
-}
+    .carousel-control-prev-icon {
+        background-image: url("{{asset('front/images/left_arrow.png')}}");
+    }
+
+
+
+
+    @media (min-width: 576px) {
+        .reverese_row{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+    }
+
+    @media (min-width: 768px) {
+        .reverese_row{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+
+
+
+
+    @media (min-width: 1140px) {
+        .inline_list{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
 
 
 

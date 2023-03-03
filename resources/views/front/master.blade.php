@@ -10,7 +10,8 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <!-- Bootstrap core CSS -->
 <link href="{{asset('front/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-
+{{-- fontawsome cdn --}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
 
     <style>
@@ -93,7 +94,7 @@ body {
     <footer class="text-muted py-5">
     <div class="container">
         <p class="float-end mb-1">
-        <a href="#"><img src="{{asset('front/images/backto_top.png')}}" style="width: 90px;"></a>
+        <a href="#"><img src="{{asset('front/images/backto_top.png')}}" style="width: 40px;"></a>
         </p>
     </div>
     </footer>

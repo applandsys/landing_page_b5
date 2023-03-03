@@ -163,7 +163,23 @@ ul li   {
     font-size: 1.1rem;
     list-style-type: none;
 }
-
+.whatsUpButton{
+    background-color: #f9ca5d;
+    border: 1px solid #605f5f;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #000;
+}
+.whatsUpButton:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.8s ease-in-out;
+}
+.testimonial_heading{
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: 15px 0;
+}
 @media (min-width: 1140px) {
 ul li   { list-style-type: none;
     line-height: 2;

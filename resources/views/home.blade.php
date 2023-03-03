@@ -30,9 +30,9 @@
                     <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                         <div class="mx-auto text-center">
                            <ul class="inline_list fw-bold">
-                            <li><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" style="color: red"> GROUP 01 </a></li>
-                            <li><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" style="color: red"> GROUP 02</a></li>
-                            <li><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" style="color: red"> GROUP 03</a></li>
+                            <li class="my-3"><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" class="whatsUpButton"> GROUP 01 </a></li>
+                            <li class="my-3"><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" class="whatsUpButton"> GROUP 02</a></li>
+                            <li class="my-3"><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" class="whatsUpButton"> GROUP 03</a></li>
                            </ul>
                         </div>
                     </div>
@@ -42,9 +42,8 @@
                     <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                         <div class="mx-auto text-center">
                             <ul class="inline_list fw-bold">
-                                <li><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" style="color: red"> GROUP 04</a></li>
-                                <li><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" style="color: red"> GROUP 05</a></li>
-
+                                <li class="my-3"><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" class="whatsUpButton"> GROUP 04</a></li>
+                                <li class="my-3"><a href="https://chat.whatsapp.com/KjqBXio4Tsy854tJT25Fjw" target="_blank" class="whatsUpButton"> GROUP 05</a></li>
                                </ul>
                         </div>
                     </div>

@@ -85,7 +85,12 @@
                                     <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
 
                                     <div class="col-md-6">
-                                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                        <input id="password-confirm" type="password" class="form-control @error('confirm_password') is-invalid @enderror" name="confirm_password" required autocomplete="new-password">
+                                        @error('confirm_password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
                                     </div>
                                 </div>
 
@@ -96,7 +101,7 @@
                     </div>
 
                     <div class="row mb-3">
-                        <div class="mt-3 text-center"><a href="{{route('front.signin','confirm')}}" style="color: red">পূর্বেই রেজিষ্ট্রেশন করে থাকলে </a></div>
+                        <div class="mt-3 text-center"><a href="{{route('front.signin',$slug)}}" style="color: red">পূর্বেই রেজিষ্ট্রেশন করে থাকলে </a></div>
                     </div>
 
                     <div class="row mb-0">

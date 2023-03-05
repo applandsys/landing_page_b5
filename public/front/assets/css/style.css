@@ -186,6 +186,13 @@ ul li   { list-style-type: none;
     font-size: 1.5rem;
 
 }
+.confirm_button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 23px;
+    margin-top: 60%;
+}
+
 }
 
 .gray{
@@ -207,12 +214,47 @@ color: #7e7979
     font-size: 2rem;
     font-weight: bold
 }
+.confirm_button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 23px;
+    margin-top: 6%;
+}
 }
 
+/* payment page css start */
+.color_1{
+    background-color: #F0006D;
+}
+.color_2{
+    background-color: #EE001E;
+}
+.color_3{
+    background-color: #FA0032;
+}
+.color_4{
+    background-color: #dddd;
+}
+.main_bg_color{
+    background-color: #EAF5E1;
+}
+.img_width{
+    width: 100%;
+}
+.box_shadow{
+    box-shadow: 0px 1px 1px 3px #b9296a66;
+    border-radius: 5px;
+}
+/* payment page css end */
 
+.not_premium_plan{
+    color: #000;
+    font-weight: 600;
 
-
-
+}
+.not_premium_plan:hover{
+    color: #EF3341;
+}
 
 .big_button{
 border: none;

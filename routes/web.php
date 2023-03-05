@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,9 +24,9 @@ Route::get('/',[FrontController::class,'homepage'])->name('front.homepage');
 Route::get('/detail',[FrontController::class,'detail'])->name('front.detail');
 Route::match(['get','post'],'/signup/{slug}', [FrontController::class,'signup'])->name('front.signup');
 
-Route::match(['get','post'],'/signin', [FrontController::class,'signin'])->name('front.signin');
+Route::match(['get','post'],'/signin/{slug}', [FrontController::class,'signin'])->name('front.signin');
 Route::match(['get','post'],'/payment', [FrontController::class,'payment'])->name('front.payment');
-
+Route::match(['get','post'],'/admin/login', [AdminController::class,'admingSignin'])->name('admin.signin');
 
 Auth::routes();
 

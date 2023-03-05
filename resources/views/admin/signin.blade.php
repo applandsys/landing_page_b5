@@ -9,7 +9,7 @@
                 <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
                     <div class="mx-auto text-center">
                         <h1 class="fw-bold"> হাজার মানুষের  IELTS প্রস্তুতি </h1>
-                       <h3>  নিচে আপনার তথ্য দিয়ে রেজিস্ট্রেশন করুন </h3>
+                       <h3> Admin Login </h3>
 
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                         {{-- <div class="card-header">{{ __('নিচে আপনার তথ্য দিয়ে রেজিস্ট্রেশন করুন') }}</div> --}}
 
                         <div class="card-body">
-                            <form method="POST" action="{{ route('front.signin', $slug) }}">
+                            <form method="POST" action="{{ route('admin.signin') }}">
                                 @csrf
 
                                 <div class="row mb-3">

@@ -88,7 +88,7 @@ body {
     </div>
   </div>
 </header>
-
+{{-- @include('front.flash-message') --}}
     @yield('content')
 
     <footer class="text-muted py-5">

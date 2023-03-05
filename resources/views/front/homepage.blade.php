@@ -272,47 +272,41 @@
                         {{-- <div class="text-center"><p class="big_p">দেশসেরা ট্রেইনারের কাছ থেকে নিন আপনার IELTS টেস্টের পূর্ণাঙ্গ প্রস্তুতি</p></div> --}}
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
-                        <div style="height: 200px;">
-                            <div class="row">
-                                <div class="col-lg-2 col-xl-2 col-md-2 col-sm-12 col-xs-12"></div>
-                                <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
-                                    <ul>
-                                        <li class="d-flex justify-content-start">
-                                            <i class="fa-solid fa-check fs-5 mt-1"></i>
-                                            <p class="mx-4" style="line-height: 1.5rem;">Covers all 4 modules: Listening, Reading, Writing and Speaking</p>
-                                        </li>
-                                        <li class="d-flex justify-content-start">
-                                            <i class="fa-solid fa-check fs-5 mt-1"></i>
-                                            <p class="mx-4" style="line-height: 1.5rem;">Great skills for IELTS Reading and Listening</p>
-                                        </li>
-                                        <li class="d-flex justify-content-start">
-                                            <i class="fa-solid fa-check fs-5 mt-1"></i>
-                                            <p class="mx-4" style="line-height: 1.5rem;">IELTS Speaking techniques</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
-                                    <ul>
-                                        <li class="d-flex justify-content-start">
-                                            <i class="fa-solid fa-check fs-5 mt-1"></i>
-                                            <p class="mx-4" style="line-height: 1.5rem;">Perfect IELTS writing strategy for Task 1 & 2</p>
-                                        </li>
-                                        <li class="d-flex justify-content-start">
-                                            <i class="fa-solid fa-check fs-5 mt-1"></i>
-                                            <p class="mx-4" style="line-height: 1.5rem;">Disscussion about all the question types</p>
-                                        </li>
-                                        <li class="d-flex justify-content-start">
-                                            <i class="fa-solid fa-check fs-5 mt-1"></i>
-                                            <p class="mx-4" style="line-height: 1.5rem;">Advanced tips for both IELTS General and IELTS Academic students</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-2 col-xl-2 col-md-2 col-sm-12 col-xs-12"></div>
-                            </div>
-                        </div>
+                <div class="row py-4">
+                    <div class="col-lg-2 col-xl-2 col-md-2 col-sm-12 col-xs-12"></div>
+                    <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                        <ul>
+                            <li class="d-flex justify-content-start">
+                                <i class="fa-solid fa-check fs-5 mt-1"></i>
+                                <p class="mx-4" style="line-height: 1.5rem;">Covers all 4 modules: Listening, Reading, Writing and Speaking</p>
+                            </li>
+                            <li class="d-flex justify-content-start">
+                                <i class="fa-solid fa-check fs-5 mt-1"></i>
+                                <p class="mx-4" style="line-height: 1.5rem;">Great skills for IELTS Reading and Listening</p>
+                            </li>
+                            <li class="d-flex justify-content-start">
+                                <i class="fa-solid fa-check fs-5 mt-1"></i>
+                                <p class="mx-4" style="line-height: 1.5rem;">IELTS Speaking techniques</p>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                        <ul>
+                            <li class="d-flex justify-content-start">
+                                <i class="fa-solid fa-check fs-5 mt-1"></i>
+                                <p class="mx-4" style="line-height: 1.5rem;">Perfect IELTS writing strategy for Task 1 & 2</p>
+                            </li>
+                            <li class="d-flex justify-content-start">
+                                <i class="fa-solid fa-check fs-5 mt-1"></i>
+                                <p class="mx-4" style="line-height: 1.5rem;">Disscussion about all the question types</p>
+                            </li>
+                            <li class="d-flex justify-content-start">
+                                <i class="fa-solid fa-check fs-5 mt-1"></i>
+                                <p class="mx-4" style="line-height: 1.5rem;">Advanced tips for both IELTS General and IELTS Academic students</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-xl-2 col-md-2 col-sm-12 col-xs-12"></div>
                 </div>
             </div>
         </div>
@@ -349,134 +343,134 @@
         </div>
     </section>
 
-
-    <section class="container">
-        <div class="row">
-            <div class="col-xl-2 col-lg-2 col-md-2"></div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="price_table_wrapper bg_ligth" id="price_chart">
-                    <div class="price_title bg_yellow_gradient text-center p-3 ">
-                        <span class="fw-bold" style="color: #000;">BASIC</span>
-                    </div>
-                    <div class="price_content p-3">
-                        <div style="display: flex; justify-content: space-around">
-                            <div class="p-2">
-                                <div>ORIGINAL PRICE</div>
-                                <div style="font-size: 2rem;" class="gray"> 7,000 TK</div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img src="{{asset('front/images/sale.png')}}" class="radius24"> NOW <br/>
-                                <span class="fw-bold" style="font-size: 2.5rem">FREE</span>
-                                </div>
-                            </div>
+{{-- price table section start --}}
+<section class="container">
+    <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2"></div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="price_table_wrapper bg_ligth my-3" id="price_chart">
+                <div class="price_title bg_yellow_gradient text-center p-3 ">
+                    <span class="fw-bold" style="color: #000;">BASIC</span>
+                </div>
+                <div class="price_content p-3">
+                    <div style="display: flex; justify-content: space-around">
+                        <div class="p-2">
+                            <div>ORIGINAL PRICE</div>
+                            <div style="font-size: 2rem;" class="gray"> 7,000 TK</div>
                         </div>
-
-                        <div style="display: flex; justify-content: center;" class="my-4">
-                            <div class="" style="background: red;
-                            padding: 8px;
-                            border-radius: 10px 0px 0px 10px;
-                            color: #fff;
-                            font-weight: bold;
-                            font-size: 1.3rem;">
-                                SAVE 100%
-                            </div>
-                            <div class=""  style="background: #ccc;
-                            padding: 8px;
-                            border-radius: 0px 10px 10px 0px;
-                            color: #000;
-                            font-weight: bold;
-                            font-size: 1.3rem;">
-                                SEAT REMAINS  {{ (1000 - $users->where('user_type','free')->count()) }}
-                            </div>
-                        </div>
-
                         <div>
-                            <ul class="flist">
-                                <li> <img src="{{asset('front/images/checked.png')}}" > 2 days training session <span class="fw-bold">online</span></li>
-                                <li> <img src="{{asset('front/images/checked.png')}}" >  Equivalent to a one-month crash course</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > 16-hour-long intensive session</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Course recording for 2 days</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Class materials</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Placement test (On-campus)</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Online mock test (Basic feedback)</li>
-                            </ul>
+                            <div>
+                                <img src="{{asset('front/images/sale.png')}}" class="radius24"> NOW <br/>
+                            <span class="fw-bold" style="font-size: 2.5rem">FREE</span>
+                            </div>
                         </div>
-
                     </div>
 
-                    <div style="display: flex; justify-content: center; padding-bottom: 23px; padding-top: 10px">
-                        <button class="big_button bg_blue_gradient "  > <a href="{{route('front.signup','confirm')}}"> কনফার্ম করুন </a></button>
+                    <div style="display: flex; justify-content: center;" class="my-4">
+                        <div class="" style="background: red;
+                        padding: 8px;
+                        border-radius: 10px 0px 0px 10px;
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 1.3rem;">
+                            SAVE 100%
+                        </div>
+                        <div class=""  style="background: #ccc;
+                        padding: 8px;
+                        border-radius: 0px 10px 10px 0px;
+                        color: #000;
+                        font-weight: bold;
+                        font-size: 1.3rem;">
+                            SEAT REMAINS  {{ (1000 - $users->where('user_type','free')->count()) }}
+                        </div>
+                    </div>
+
+                    <div>
+                        <ul class="flist">
+                            <li> <img src="{{asset('front/images/checked.png')}}" > 2 days training session <span class="fw-bold">online</span></li>
+                            <li> <img src="{{asset('front/images/checked.png')}}" >  Equivalent to a one-month crash course</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > 16-hour-long intensive session</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Course recording for 2 days</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Class materials</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Placement test (On-campus)</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Online mock test (Basic feedback)</li>
+                        </ul>
                     </div>
 
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="price_table_wrapper bg_ligth  ">
-                    <div class="price_title bg_red_gradient text-center p-3 ">
-                        <span class="fw-bold">Premium</span>
-                    </div>
-                    <div class="price_content p-3">
-                        <div style="display: flex; justify-content: space-around">
-                            <div class="p-2">
-                                <div>ORIGINAL PRICE</div>
-                                <div style="font-size: 2rem;" class="gray"> 10,000 TK</div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img src="{{asset('front/images/sale.png')}}" > NOW <br/>
-                                <span class="fw-bold" style="font-size: 2.5rem">3900 Tk</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="display: flex; justify-content: center;" class="my-4">
-                            <div class="" style="background: red;
-                            padding: 8px;
-                            border-radius: 10px 0px 0px 10px;
-                            color: #fff;
-                            font-weight: bold;
-                            font-size: 1.3rem;">
-                                SAVE 61%
-                            </div>
-                            <div class=""  style="background: #ccc;
-                            padding: 8px;
-                            border-radius: 0px 10px 10px 0px;
-                            color: #000;
-                            font-weight: bold;
-                            font-size: 1.3rem;">
-                                 SEAT REMAINS  {{ (30 - $users->where('user_type','premium')->count()) }}
-                            </div>
-                        </div>
-
-                        <div>
-                            <ul>
-                                <li> <img src="{{asset('front/images/checked.png')}}" > 3 days <span class="fw-bold">face-to-face</span> training session</li>
-                                <li> <img src="{{asset('front/images/checked.png')}}" >  Equivalent to a one-month crash course</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > 20-hour-long intensive session</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Course recording for 3 months</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Class materials</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Placement test (On-campus)</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > <span class="fw-bold">On-venue mock test with detailed feedback</span></li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > <span class="fw-bold">Live interaction with trainers</span></li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > <span class="fw-bold">Recovery session</span></li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Band 8 gift hamper</li>
-                                <li><img src="{{asset('front/images/checked.png')}}" > Champion gift hamper</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div style="display: flex; justify-content: center; padding-bottom: 23px ;padding-top: 10px" id="price_chart">
-                        <button class="big_button bg_red_gradient "> <a href="{{route('front.signup','enroll')}}"> এনরোল করুন </a></button>
-                    </div>
+                <div class="confirm_button">
+                    <button class="big_button bg_blue_gradient "  > <a href="{{route('front.signup','confirm')}}"> কনফার্ম করুন </a></button>
                 </div>
+
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-2"></div>
         </div>
-    </section>
 
+        <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="price_table_wrapper bg_ligth my-3">
+                <div class="price_title bg_red_gradient text-center p-3 ">
+                    <span class="fw-bold">Premium</span>
+                </div>
+                <div class="price_content p-3">
+                    <div style="display: flex; justify-content: space-around">
+                        <div class="p-2">
+                            <div>ORIGINAL PRICE</div>
+                            <div style="font-size: 2rem;" class="gray"> 10,000 TK</div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="{{asset('front/images/sale.png')}}" > NOW <br/>
+                            <span class="fw-bold" style="font-size: 2.5rem">3900 Tk</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; justify-content: center;" class="my-4">
+                        <div class="" style="background: red;
+                        padding: 8px;
+                        border-radius: 10px 0px 0px 10px;
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 1.3rem;">
+                            SAVE 61%
+                        </div>
+                        <div class=""  style="background: #ccc;
+                        padding: 8px;
+                        border-radius: 0px 10px 10px 0px;
+                        color: #000;
+                        font-weight: bold;
+                        font-size: 1.3rem;">
+                                SEAT REMAINS  {{ (30 - $users->where('user_type','premium')->count()) }}
+                        </div>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li> <img src="{{asset('front/images/checked.png')}}" > 3 days <span class="fw-bold">face-to-face</span> training session</li>
+                            <li> <img src="{{asset('front/images/checked.png')}}" >  Equivalent to a one-month crash course</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > 20-hour-long intensive session</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Course recording for 3 months</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Class materials</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Placement test (On-campus)</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > <span class="fw-bold">On-venue mock test with detailed feedback</span></li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > <span class="fw-bold">Live interaction with trainers</span></li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > <span class="fw-bold">Recovery session</span></li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Band 8 gift hamper</li>
+                            <li><img src="{{asset('front/images/checked.png')}}" > Champion gift hamper</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div style="display: flex; justify-content: center; padding-bottom: 23px ;padding-top: 10px" id="price_chart">
+                    <button class="big_button bg_red_gradient "> <a href="{{route('front.signup','enroll')}}"> এনরোল করুন </a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2"></div>
+    </div>
+</section>
+{{-- price table section end --}}
 
     <section class="container">
         <div class="row  bg_wrapper my-5">
@@ -508,7 +502,33 @@
 
 {{-- tastimonial section start --}}
 <section class="container">
-    <div class="row  my-5">
+    <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card bg_light p-3 my-3"  style="border-radius: 30px; height: 200px;">
+                <div style="">
+                    <p>বিএআরসি এর কোর্সগুলো খুব সুন্দর করে সাজানো। ক্লাসগুলো এমন ভাবে ডিজাইন করা যেন আমি যখন যেখান থেকে খুশি শুরু করতে পারি।</p>
+                    <p style="float: right; margin-top: 1.0rem">-তানভীর</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card bg_light p-3 my-3"  style="border-radius: 30px; height: 200px;">
+                <div>
+                    <p>IELTS এর সেরা প্রতিষ্ঠান হচ্ছে বিএআরসি। একি ছাঁদের নিচে মক এবং মেইন টেস্ট দিতে পেরে আমি খুব এক্সসাইটেড। মূল টেস্টের আগে আমার মধ্যে কোন ভয় কাজ করেনি।</p>
+                    <p style="float: right;">-মাইশা</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card bg_light p-3 my-3"  style="border-radius: 30px; height: 200px;">
+                <div>
+                    <p>আমার শুধু একটু পুশ দরকার ছিলো, আমি ক্র্যাশ কোর্স করে আমার প্রিপারেশনকে আরেকটু মজবুত করেছি। এবং আমার টার্গেট স্কোর পেয়েছি।</p>
+                    <p style="float: right; margin-top: 1.0rem">-রাফা</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- <div class="row  my-5">
         <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
             <div class="container text-center my-3">
                 <div class="row mx-auto my-auto justify-content-center">
@@ -516,59 +536,34 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="col-md-4 ">
-                                    <div class="card bg_light p-3 mx-3"  style="border-radius: 30px; ">
-                                        <div class="">
-
-                                            <div style="height: 200px;">
-                                                <h3 class="testimonial_heading fw-bolder">তানভীর</h3>
-                                                <p>বিএআরসি এর কোর্সগুলো খুব সুন্দর করে সাজানো। ক্লাসগুলো এমন ভাবে ডিজাইন করা যেন আমি যখন যেখান থেকে খুশি শুরু করতে পারি।</p>
-                                            </div>
-
+                                    <div class="card bg_light p-3 mx-3"  style="border-radius: 30px; height: 200px;">
+                                        <div style="">
+                                            <p>বিএআরসি এর কোর্সগুলো খুব সুন্দর করে সাজানো। ক্লাসগুলো এমন ভাবে ডিজাইন করা যেন আমি যখন যেখান থেকে খুশি শুরু করতে পারি।</p>
+                                            <p style="float: right;">-তানভীর</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="col-md-4 ">
-                                    <div class="card bg_light p-3 mx-3"  style="border-radius: 30px; ">
-                                        <div class="">
-
-                                            <div style="height: 200px;">
-                                                <h3 class="testimonial_heading fw-bolder">মাইশা</h3>
-                                                <p>IELTS এর সেরা প্রতিষ্ঠান হচ্ছে বিএআরসি। একি ছাঁদের নিচে মক এবং মেইন টেস্ট দিতে পেরে আমি খুব এক্সসাইটেড। মূল টেস্টের আগে আমার মধ্যে কোন ভয় কাজ করেনি।</p>
-                                            </div>
-
+                                    <div class="card bg_light p-3 mx-3"  style="border-radius: 30px; height: 200px;">
+                                        <div>
+                                            <p>IELTS এর সেরা প্রতিষ্ঠান হচ্ছে বিএআরসি। একি ছাঁদের নিচে মক এবং মেইন টেস্ট দিতে পেরে আমি খুব এক্সসাইটেড। মূল টেস্টের আগে আমার মধ্যে কোন ভয় কাজ করেনি।</p>
+                                            <p style="float: right;">-মাইশা</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="col-md-4 ">
-                                    <div class="card bg_light p-3 mx-3"  style="border-radius: 30px; ">
-                                        <div class="">
-
-                                            <div style="height: 200px;">
-                                               <h3 class="testimonial_heading fw-bolder">রাফা</h3>
-                                               <p>আমার শুধু একটু পুশ দরকার ছিলো, আমি ক্র্যাশ কোর্স করে আমার প্রিপারেশনকে আরেকটু মজবুত করেছি। এবং আমার টার্গেট স্কোর পেয়েছি।</p>
-                                            </div>
-
+                                    <div class="card bg_light p-3 mx-3"  style="border-radius: 30px; height: 200px;">
+                                        <div>
+                                            <p>আমার শুধু একটু পুশ দরকার ছিলো, আমি ক্র্যাশ কোর্স করে আমার প্রিপারেশনকে আরেকটু মজবুত করেছি। এবং আমার টার্গেট স্কোর পেয়েছি।</p>
+                                            <p style="float: right;">-রাফা</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="carousel-item">
-                                <div class="col-md-4 ">
-                                    <div class="card  p-3 mx-3"  style="border-radius: 30px; ">
-                                        <div class="">
-
-                                            <div style="height: 200px;">
-                                                sdf
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
                         </div>
                         <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -581,7 +576,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 </section>
 {{-- tastimonial section end --}}
 {{-- FAQ section start --}}
@@ -598,7 +593,7 @@
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         যে কেউ কি অংশ নিতে পারবে?
                     </button>
                     </h2>
@@ -610,7 +605,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         কিভাবে অংশ নেব?
                     </button>
                     </h2>
@@ -622,7 +617,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         ব্যান্ড ৮ গিফট হ্যাম্পারে কিভাবে অংশ নেব?
                     </button>
                     </h2>
@@ -634,7 +629,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         কোর্স রেকর্ডিং কিভাবে নেব?
                     </button>
                     </h2>
@@ -646,7 +641,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         এক মাসের কোর্স কিভাবে ৩ দিনে সম্ভব?
                     </button>
                     </h2>
@@ -658,7 +653,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         রিকভারি সেশন কাদের জন্য?
                     </button>
                     </h2>
@@ -670,7 +665,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                         প্লেসমেন্ট টেস্ট কি?
                     </button>
                     </h2>
@@ -682,7 +677,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingEight">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                         আমি কি ট্রেইনারকে প্রশ্ন করতে পারবো?
                     </button>
                     </h2>
@@ -694,7 +689,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingNine">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                         মক টেস্টে কিভাবে অংশ নেব?
                     </button>
                     </h2>
@@ -706,7 +701,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTen">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                         প্রিমিয়াম এবং ব্যাসিক প্যাকেজের মূল পার্থক্য কি?
                     </button>
                     </h2>

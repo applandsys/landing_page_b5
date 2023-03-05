@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto">
                         <div class="text-center">
-                            <video loop="true" autoplay="autoplay" controls="controls" id="vid"  style="border: 10px solid #ccc;
+                            <video loop="true" autoplay="autoplay" controls="controls" id="vid"  style="border: 10px solid #242424;
                             border-radius: 30px;
                             overflow: hidden;
                             padding: 0px; width: 100%">
@@ -37,8 +37,8 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
-                        <div class="mx-auto text-center mb-4 mt-2" style="    font-size: 1.1rem;">
-                            না, আমার পিমিয়াম প্ল্যান দরকার নেই
+                        <div class="mx-auto text-center mb-4 mt-2" style="font-size: 1.1rem;">
+                           <a href="{{ route('home') }}" class="not_premium_plan"> না, আমার প্রিমিয়াম প্ল্যান দরকার নেই</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
     <section class="container d-none d-sm-block">
         <div class="row ">
                <div class="col-md-12">
-                <img src="{{asset('front/images/info.png')}}"  class="img100 radius24">
+                <img src="{{asset('front/images/Info.png')}}"  class="img100 radius24">
                </div>
         </div>
     </section>
@@ -154,23 +154,14 @@
                                   <p class="card-text big_p text-center" >Direct Q/A</p>
                                 </div>
                             </div>
-
                             <div class="card"  style=" margin-bottom:8px">
                                 <div class="card-body">
                                   <p class="card-text big_p text-center" >Band 8 gift hamper  </p>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
             </div>
         </div>
     </section>
@@ -218,7 +209,7 @@
                         </div>
                         <div class="mb-5">
                             <p class="card-text big_p text-center px-md-5" >
-                              নিজের সব কনফিউশন দূর করুন ট্রেইনারের সাথে সরাসরি কথা বলে। শুধুমাত্র প্রিমিয়াম প্যাকেজের শিক্ষার্থিরা পাবেন ভেনুতে বসে ৩ দিন ক্লাস করার সুযোগ। ট্রেইনারকে জিজ্ঞেস করুন আপনার অজানা বিষয়গুলো এবং বুঝে নিন আপনার পুর্নাঙ্গ প্রস্তুতির সব সিক্রেট টিপস।
+                              নিজের সব কনফিউশন দূর করুন ট্রেইনারের সাথে সরাসরি কথা বলে। শুধুমাত্র প্রিমিয়াম প্ল্যানের শিক্ষার্থিরা পাবেন ভেনুতে বসে ৩ দিন ক্লাস করার সুযোগ। ট্রেইনারকে জিজ্ঞেস করুন আপনার অজানা বিষয়গুলো এবং বুঝে নিন আপনার পুর্নাঙ্গ প্রস্তুতির সব সিক্রেট টিপস।
                             </p>
                         </div>
 
@@ -260,7 +251,7 @@
                         <div style="display: flex;
                         align-items: center;
                         justify-content: center;">
-                            <img src="{{asset('front/images/mock_test.png')}}"  class="img100 radius24">
+                            <img src="{{asset('front/images/mock_test.jpg')}}"  class="img100 radius24">
                         </div>
                      </div>
                 </div>
@@ -272,7 +263,7 @@
                         </div>
                         <div class="mb-5">
                             <p class="card-text big_p text-center px-md-5" >
-									প্রিময়াম প্যাকেজ নিয়ে আনলক করুন IELTS এর আসল ভ্যানুর এক্সপেরিয়ান্স। আমাদের সাথে আপনি রিডিং, রাইটিং, লিসেনিং এবং স্পিকিং টেস্ট দিতে পারবেন। আর সাথে ডিটেইল ফিডব্যাক রিপোর্টতো থাকছেই। তাই নিজের সেরাটা দিতে আগে থেকে পরিচিত হয়ে নিন IELTS এর আসল ভ্যানুর সাথে।
+                                প্রিমিয়াম প্ল্যান নিয়ে আনলক করুন IELTS এর আসল ভ্যানুর এক্সপেরিয়ান্স। আমাদের সাথে আপনি রিডিং, রাইটিং, লিসেনিং এবং স্পিকিং টেস্ট দিতে পারবেন। আর সাথে ডিটেইল ফিডব্যাক রিপোর্টতো থাকছেই। তাই নিজের সেরাটা দিতে আগে থেকে পরিচিত হয়ে নিন IELTS এর আসল ভ্যানুর সাথে।
                             </p>
                         </div>
 
@@ -314,7 +305,7 @@
                         <div style="display: flex;
                         align-items: center;
                         justify-content: center;">
-                            <img src="{{asset('front/images/class_recording.png')}}"  class="img100 radius24">
+                            <img src="{{asset('front/images/class_recording.jpg')}}"  class="img100 radius24">
                         </div>
                      </div>
                 </div>
@@ -326,7 +317,7 @@
                         </div>
                         <div class="mb-5">
                             <p class="card-text big_p text-center px-md-5" >
-									এ যেন শেষ হয়েও হল না শেষ। নিজের সফলতাকে নিশ্চিত করুন বার বার প্র্যাক্টিস করে। প্রিমিয়াম প্যাকেজের শিক্ষার্থিরা পাবেন তিন মাস পর্যন্ত যতবার খুশি ততবার ক্লাস লেসন গুলতে চোখ বুলিয়ে নেয়ার সুযোগ।
+									এ যেন শেষ হয়েও হল না শেষ। নিজের সফলতাকে নিশ্চিত করুন বার বার প্র্যাক্টিস করে। প্রিমিয়াম প্ল্যানের শিক্ষার্থীরা পাবেন তিন মাস পর্যন্ত যতবার খুশি ততবার ক্লাস লেসন গুলতে চোখ বুলিয়ে নেয়ার সুযোগ।
 
 
                             </p>
@@ -376,7 +367,7 @@
     <div class="row">
         <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
             <div class="mx-auto text-center mb-4 mt-2" style="    font-size: 1.1rem;">
-                না, আমার পিমিয়াম প্ল্যান দরকার নেই
+                <a href="{{ route('home') }}" class="not_premium_plan"> না, আমার প্রিমিয়াম প্ল্যান দরকার নেই</a>
             </div>
         </div>
     </div>
